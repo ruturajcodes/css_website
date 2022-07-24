@@ -1,0 +1,122 @@
+body{
+  margin:0;
+  /* background-color: yellow; */
+  text-align: center;
+  font-family: "Helvetica Neue",sans-serif
+}
+h1{
+  padding-top:0;
+  position: relative;
+  left:0;
+  font-family: 'Space Mono', monospace;
+}
+p{
+  margin-left: 0;
+  margin-top: 0;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: Google Sans;
+  font-size: 125%;
+}
+
+.programmer_title{
+  font-size: 160%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.top_container{
+
+  background-color: #e4f9f5;
+  /* width: 150px;
+  height: 150px;  */
+  position: relative;
+  padding-top: 100px;
+  top: 0;
+
+
+}
+
+.middle_container{
+  /* margin-left: 260px; */
+  /* border: solid 20px; */
+  /* width: 200px;
+  height: 200px;
+  background-color: red; */
+}
+
+.bottom_container{
+  /* margin-left: 500px; */
+  /* border: solid 10px; */
+  /* width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: relative;
+  left: 100px; */
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top_cloud{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom_cloud{
+  position: absolute;
+}
+
+.hello{
+  font-family: Google Sans;
+
+  font-size: 200%;
+}
+
+/* .head{
+  padding-top: 50px;
+} */
+
+.skill_image{
+  width: 15%;
+}
+
+.hobby_image{
+  width: 15%;
+}
+
+.linkdn{
+  width: 3%;
+}
+.twitter{
+  width: 3%;
+}
+
+.btn2{
+  width: 3%;
+}
+
+.profile_pic{
+  padding-top: 30px;
+}
+
+.profile_font{
+  font-family: Google Sans;
+  font-size: 150%;
+  font-weight: 400;
+}
+
+.skill-row{
+  font-family: Google Sans;
+}
+
+.skill-row-title{
+  font-family: Google Sans;
+  font-size:200%;
+}
+
+.concluding{
+  font-family: Google Sans;
+  font-size:120%;
+}
