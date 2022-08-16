@@ -1,14 +1,32 @@
 body{
   margin:0;
-  /* background-color: yellow; */
+  color: #40514e;
+  background-color: white;
   text-align: center;
-  font-family: "Helvetica Neue",sans-serif
+  font-family: "Helvetica Neue",sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
+
+hr{
+  border: dotted 	#DCDCDC 6px;
+  border-bottom: none;
+  width: 8%;
+}
+
 h1{
+  color: #66BFBF;
   padding-top:0;
   position: relative;
   left:0;
+  font-size: 312.5%;
   font-family: 'Space Mono', monospace;
+  margin: 50px auto 0 auto;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
 }
 p{
   margin-left: 0;
@@ -19,9 +37,10 @@ p{
 }
 
 .programmer_title{
-  font-size: 160%;
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: normal;
+  margin-top: 20px;
 }
 
 .top_container{
@@ -30,13 +49,12 @@ p{
   /* width: 150px;
   height: 150px;  */
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   top: 0;
-
-
 }
 
 .middle_container{
+  padding-top: 10px;
   /* margin-left: 260px; */
   /* border: solid 20px; */
   /* width: 200px;
@@ -45,13 +63,18 @@ p{
 }
 
 .bottom_container{
+  padding-top: 8px;
+  padding-bottom: 10px;
+  background-color: #f72585;
   /* margin-left: 500px; */
   /* border: solid 10px; */
   /* width: 200px;
   height: 200px;
-  background-color: yellow;
+
+
   position: relative;
   left: 100px; */
+  margin-bottom: 0;
 }
 
 .pro{
@@ -60,12 +83,14 @@ p{
 
 .top_cloud{
   position: absolute;
-  right: 400px;
+  left: 870px;
   top: 50px;
 }
 
 .bottom_cloud{
   position: absolute;
+  left: 350px;
+  top: 250px;
 }
 
 .hello{
@@ -79,56 +104,177 @@ p{
 } */
 
 .skill_image{
-  width: 15%;
+  width: 25%;
+  float:left;
+  /* left: 500px; */
+  margin-right: 40px;
 }
 
 .hobby_image{
-  padding-top: 5%;
-  width: 15%;
+  padding-top: 0%;
+  width: 25%;
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  position: relative;
+  left: 5px;
+}
+
+.origami-text{
+  line-height: 1.5;
 }
 
 .linkdn{
-  width: 6%;
+  width: 5%;
 }
 .twitter{
-  width: 6%;
+  width: 5%;
 }
 
 .btn2{
-  width: 6%;
+  width: 5%;
 }
 
 .gcoeara{
-
-  width: 7%;
+  margin-left: -10px;
+  width: 6%;
 
 }
 
 .profile_pic{
+  margin-top: 4%;
   padding-top: 30px;
 }
 
 .profile_font{
+  /* display: inline-block; */
   font-family: Google Sans;
   font-size: 150%;
-  font-weight: 400;
+  font-weight: 500;
+  width: 30%;
+  margin:auto;
+  margin-bottom: 50px;
+  /* text-align: left; */
 }
 
 .skill-row{
+  /* display: inline-block; */
+  text-align: left;
+
+  width: 50%;
+  margin:50px auto 50px auto;
   font-family: Google Sans;
 }
 
 .skill-row-title{
+  margin-top: 40px;
+  /* margin-left: 50px; */
   font-family: Google Sans;
   font-size:200%;
 }
+.dnd{
+  margin-top: 10px;
+}
+
+.dnd-skill-para{
+  line-height: 1.5;
+}
+
+
+.skrow{
+  margin-top: 140px;
+}
 
 .concluding{
+  /* text-align: left; */
   font-family: Google Sans;
   font-size:120%;
+  /* left: auto; */
 }
 
 .credits{
+  margin-top: 10px;
   font-family: Google Sans;
   font-size:80%;
+  color: #eaf6f6;
+  margin-bottom: 0;
+  position: relative;
+  top: 10px;
+
+  padding-bottom: 10px;
+}
+
+.contactme-line-height{
+  margin: 40px auto 10px auto;
+  line-height: 1.5;
+  width: 40%;
+}
+
+
+.btn {
+  -webkit-border-radius: 100;
+  -moz-border-radius: 13;
+  border-radius: 100px;
+  text-shadow: 2px 3px 2px #666666;
+  font-family: Google Sans;
+  color: #ffffff;
+  font-size: 23px;
+  background: #3498db;
+  padding-top: 10px;
+
+  text-decoration: none;
+  height: 2.625rem;        /* 42 px*/
+  width: 11.25rem;    /*180 px*/
+  margin: auto;
+  /* text-align: center;  */
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/* .bottom{
+  background-color: black;
+} */
+
+.footer-link{
+  padding-top: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.btn1{
+  padding-top: 100px;
+  margin-right: 10px;
+}
+
+.google{
+  /* padding: 50px ; */
+  color: black;
+  position: relative;
+  top: 10px;
+  margin-top: 50px ;
+  text-decoration: none;
+  font-family: Google Sans;
+  }
+
+.google:hover{
+  color: yellow;
+}
+
+.textofbutton{
+  /* position: absolute;
+  top: 50%;
+  bottom: 50%; */
+  /* padding: 0;
+  margin: auto; */
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
